@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="/task.css">
+</head>
+<body>
+    <div class="head">
+        <div class="buttons">
+            <h3 id="All" onclick="change('All Tasks')" style="border-bottom: solid .3vh white;">All Tasks</h3>
+            <h3 id="Open" onclick="change('Open')">Open</h3>  
+            <h1>Task Manager</h1>
+            <h3 id="Completed" onclick="change('Completed')">Completed</h3>
+            <h3 id="Create" onclick="change('Create')">Create</h3>
+        </div>
+    </div>
+    
+    <div id="disp" class="display">
+        <h1 id="header">All Tasks</h1>
+        <div>
+            <input type="text" placeholder="Reminder">
+            <input type="text" placeholder="">
+            <input type="date">
+        </div>
+    </div>
+</body>
+
+<script src="task.js">
+</script>
+</html>
